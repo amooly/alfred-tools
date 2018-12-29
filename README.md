@@ -6,8 +6,8 @@ Including:
  - trim function.
 
 ## how to use
-using "str" as the keyword to active this workflow.
-[screenshot](./screenshot.jpg)
+using "str" as the keyword to active this workflow.  
+![screenshot](./screenshot.jpg)
 
 ## dependencies
 1. [awgo](https://github.com/deanishe/awgo)
