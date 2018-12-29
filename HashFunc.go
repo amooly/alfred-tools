@@ -23,5 +23,5 @@ func (HashFunc) execute(str string) (string, error) {
 }
 
 func (HashFunc) tip() string {
-	return "哈希分表位："
+	return "DB index："
 }

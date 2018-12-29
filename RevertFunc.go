@@ -14,5 +14,5 @@ func (RevertFunc) execute(str string) (string, error) {
 }
 
 func (RevertFunc) tip() string {
-	return "字符串反转："
+	return "Revert ："
 }

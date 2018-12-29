@@ -10,5 +10,5 @@ func (TrimFunc) execute(str string) (string, error) {
 }
 
 func (TrimFunc) tip() string {
-	return "清除格式："
+	return "Trim ："
 }

@@ -25,7 +25,7 @@ func run() {
 		if err != nil {
 			log.Printf("input:%s", os.Args[1:])
 			log.Printf("error:%s", err)
-			wf.NewItem("运行异常，请进入调试模式排查")
+			wf.NewItem("Error!!! Please open the debug mode.")
 			break
 		} else {
 			wf.NewItem(function.tip() + result).Arg(result).Valid(true)
